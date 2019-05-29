@@ -6,7 +6,12 @@ Some tutorials for quickly learning python conventions and how to use libraries 
 climate_data_tutorial.ipynb 
 This file contains a Jupyter Notebook, a user-friendly interface for the programming language Python version 3. This notebook contains instructions for loading, analyzing, and plotting climate data saved in the common netCDF4 data format. If this is your first time using Python 3+ or Jupyter Notebooks, I recommend installing both via Anaconda (conda for short), software that lets you create independent programming environments with interdependencies in the programming libraries all figured out for you behind the scenes. The following two conda commands will install Python, Jupyter Notebook, and the three key python libraries we will use and activate the conda enviroment:
 
+<<<<<<< HEAD
 conda create -n climatepy-tutorial jupyter numpy matplotlib netcdf4 pandas xarray
+=======
+conda create -n climatepy-tutorial jupyter numpy matplotlib netcdf4
+
+>>>>>>> 5601f67f4cef3a0575e7a8187ad41c15246d1fbb
 source activate climatepy-tutorial
 
 ### An exercise to test what you learned in the tutorials
